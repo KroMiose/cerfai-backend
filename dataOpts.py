@@ -1,4 +1,5 @@
 from multiprocessing import AuthenticationError
+from dataRecords import dataRecorder
 from utils.dbManager import DatabaseManager
 from utils.md5 import hex_md5
 import random
@@ -12,10 +13,11 @@ class dataOpt:
         'data': {},
         'update_time': 0,
     }
-
     def __init__(self):
         self.db = DatabaseManager(config=config.database_settings)
         self.load_rundata()
+        self.dataRecoder = dataRecorder(self.db)
+
     
     # 载入运行数据
     def load_rundata(self):
@@ -63,10 +65,11 @@ class dataOpt:
         return res[0]
 
     # 更新词条
-    def update_taginfo(self, data):
+    def update_taginfo(self, data, ip):
         try:
             tid = int(data['id'])
             odata = self.db.select(f'''SELECT * FROM ct_tags WHERE id = {tid}''')[0]
+            self.dataRecoder.editRecord(odata,ip)
             up_times = 0 if not odata['update_times'] else odata['update_times']
             odata['contributor'] = '' if not odata['contributor'] else odata['contributor']
 
@@ -244,7 +247,28 @@ class dataOpt:
             print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {e} 来自管理编辑接口，携带数据: {data}")
             return False
 
-
+    def get_record(self,data):
+        try:
+            if self.check_access_key(data['token']):
+                if "page" not in data:data['page']=1
+                if "pageSize" not in data:data["pageSize"]=50
+                if "id" in data:
+                    return self.dataRecoder.getRecord(data['id'],data['page'],data['pageSize'])
+                else:
+                    if "time1" not in data:data['time1']=0
+                    if "time2" not in data:data["time2"]=0
+                    if "ip" not in data:data["ip"]=""
+                    return self.dataRecoder.filterRecord(data["ip"],data["time1"],data["time2"],data['page'],data['pageSize'])
+        except Exception as e:
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {e} 来自管理记录查询，携带数据: {data}")
+            return False
+    def back_to_record(self,data):
+        try:
+            if self.check_access_key(data['token']):
+                return self.dataRecoder.backToRecord(data['record_id'])
+        except Exception as e:
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {e} 来自管理记录查询，携带数据: {data}")
+            return False
     """ ================================ 开放平台接口 ================================ """
     # 获取总分类列表
     def get_full_categories(self):

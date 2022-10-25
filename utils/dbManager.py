@@ -1,6 +1,11 @@
 import pymysql
 import re
-
+def _dealParam(param:list)->list:
+    ret = []
+    for p in param:
+        if p is None:ret.append("")
+        else:ret.append(p)
+    return ret
 class DatabaseManager:
     debug = False
 
@@ -32,6 +37,30 @@ class DatabaseManager:
             if(self.debug):
                 print('正在执行SQL语句: ' + sql)
             self.cur.execute(sql)
+            self.conn.commit()
+            return True
+        except Exception as e:
+            self.conn.rollback()
+            return False
+
+    
+    def select_bind(self, sql,params):
+        #参数绑定方式查询
+        self.conn.ping(reconnect=True)
+        params = _dealParam(params)
+        if(self.debug):
+            print('正在执行SQL语句: ' + sql+"\n参数:"+"|".join(params))
+        self.cur.execute(sql,params)
+        data = self.cur.fetchall()
+        return data
+    def execute_bind(self, sql,params):
+        #参数绑定方式执行
+        try:
+            self.conn.ping(reconnect=True)
+            params = _dealParam(params)
+            if(self.debug):
+                print('正在执行SQL语句: ' + sql+"\n参数:"+"|".join(params))
+            self.cur.execute(sql,params)
             self.conn.commit()
             return True
         except Exception as e:

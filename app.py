@@ -50,7 +50,7 @@ def update_taginfo():
         if ctime - ip_dict[request.remote_addr] < config.ct_submit_delay:
             return {'code': 401, 'msg': f"提交过于频繁，请等待 {int(config.ct_submit_delay - (ctime - ip_dict[request.remote_addr]))} 秒后重试"}
 
-    if do.update_taginfo(reqData):
+    if do.update_taginfo(reqData,request.remote_addr):
         ip_dict[request.remote_addr] = time.time()
         return {'code': 200, 'msg': '更新成功，感谢您的贡献！'}
     return {'code': 401, 'msg': '上传失败，请检查输入内容是否合法'}
@@ -123,6 +123,29 @@ def edit_tag():
     if data != False:
         return {'code': 200, 'data': data, 'msg': '更新成功'}
     return {'code': 401, 'msg': '参数错误'}
+# 获取词条历史记录
+@app.route('/admin/get_record', methods=['GET','POST'])
+def get_record():
+    try:
+        reqData = json.loads(request.data.decode('UTF-8'))
+    except json.decoder.JSONDecodeError:
+        reqData = request.form
+    data = do.get_record(reqData)
+    if data != False:
+        return {'code': 200, 'data': data, 'msg': '查询成功'}
+    return {'code': 401, 'msg': '未获取到数据'}
+# 回溯词条
+@app.route('/admin/back_to_record', methods=['GET','POST'])
+def back_to_record():
+    try:
+        reqData = json.loads(request.data.decode('UTF-8'))
+    except json.decoder.JSONDecodeError:
+        reqData = request.form
+    data = do.back_to_record(reqData)
+    if data != False:
+        return {'code': 200, 'data': data, 'msg': '处理成功'}
+    return {'code': 401, 'msg': '处理失败'}
+
 
 
 """ ================================ 开放平台接口 ================================ """
