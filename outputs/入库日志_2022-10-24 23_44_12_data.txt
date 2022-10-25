@@ -1,0 +1,245 @@
+[2022-10-24 23:44:12] 正在更新词条 aaeru 译名为 阿艾尔
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿艾尔', `desc` = '出自动漫《西蒙》', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 258;
+[2022-10-24 23:44:12] 正在更新词条 abandon ranka 译名为 万隆兰花
+=>  sql: UPDATE `ct_tags` SET `t_name` = '万隆兰花', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 269;
+[2022-10-24 23:44:13] 正在更新词条 aardwolf (kemono friends) 译名为 土狼(兽娘动物园)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '土狼(兽娘动物园)', `desc` = '出自动漫《兽娘动物园》', `contributor` = '好好怪,', `c_id` = 2607, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 263;
+[2022-10-24 23:44:13] 正在更新词条 abara heiki 译名为 肋兵器
+=>  sql: UPDATE `ct_tags` SET `t_name` = '肋兵器', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 271;
+[2022-10-24 23:44:13] 正在更新词条 abarai renji 译名为 阿散井恋次
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿散井恋次', `desc` = '出自漫画《死神》', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 272;
+[2022-10-24 23:44:13] 正在更新词条 abbystea 译名为 abbystea
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abbystea', `desc` = '推特id', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 277;
+[2022-10-24 23:44:14] 正在更新词条 abe suke 译名为 abe suke
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abe suke', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 281;
+[2022-10-24 23:44:14] 正在更新词条 abe takakazu 译名为 阿部高和
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿部高和', `desc` = '出自漫画《くそみそ?????》', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 282;
+[2022-10-24 23:44:14] 正在更新词条 abenobashi mahou shoutengai 译名为 动漫《阿倍野桥商店街》
+=>  sql: UPDATE `ct_tags` SET `t_name` = '动漫《阿倍野桥商店街》', `desc` = '', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 286;
+[2022-10-24 23:44:14] 正在更新词条 abigail williams (swimsuit foreigner) (first ascension) (fate) 译名为 阿比盖尔·威廉姆斯(泳装降临者)(一破)(fate)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿比盖尔·威廉姆斯(泳装降临者)(一破)(fate)', `desc` = '出自FGO', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 292;
+[2022-10-24 23:44:14] 正在更新词条 abigail williams (swimsuit foreigner) (third ascension) (fate) 译名为 阿比盖尔·威廉姆斯(泳装降临者)(三破)(fate)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿比盖尔·威廉姆斯(泳装降临者)(三破)(fate)', `desc` = '出自FGO', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 293;
+[2022-10-24 23:44:14] 正在更新词条 abmayo 译名为 abmayo
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abmayo', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 297;
+[2022-10-24 23:44:15] 正在更新词条 abomasnow 译名为 暴雪王
+=>  sql: UPDATE `ct_tags` SET `t_name` = '暴雪王', `desc` = '出自精灵宝可梦', `contributor` = '好好怪,', `c_id` = 2708, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 300;
+[2022-10-24 23:44:15] 正在更新词条 abra 译名为 凯西
+=>  sql: UPDATE `ct_tags` SET `t_name` = '凯西', `desc` = '出自精灵宝可梦', `contributor` = '好好怪,', `c_id` = 2708, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 302;
+[2022-10-24 23:44:15] 正在更新词条 absinthe (arknights) 译名为 苦艾
+=>  sql: UPDATE `ct_tags` SET `t_name` = '苦艾', `desc` = '出自明日方舟', `contributor` = '好好怪,', `c_id` = 2710, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 304;
+[2022-10-24 23:44:15] 正在更新词条 abukuma (kancolle) 译名为 阿武隈号(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿武隈号(舰队收藏)', `desc` = '出自舰队收藏', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 317;
+[2022-10-24 23:44:15] 正在更新词条 abukuma kai ni (kancolle) 译名为 阿武隈号改二(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿武隈号改二(舰队收藏)', `desc` = '出自舰队收藏', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 318;
+[2022-10-24 23:44:16] 正在更新词条 accelerator (toaru majutsu no index) 译名为 一方通行《魔法禁书目录》
+=>  sql: UPDATE `ct_tags` SET `t_name` = '一方通行《魔法禁书目录》', `desc` = '出自动漫《魔法禁书目录》', `contributor` = '好好怪,', `c_id` = 2698, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 328;
+[2022-10-24 23:44:16] 正在更新词条 acubi tomaranai 译名为 acubi tomaranai
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'acubi tomaranai', `desc` = '画师微博id', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 372;
+[2022-10-24 23:44:16] 正在更新词条 adachi sakura 译名为 安达樱
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达樱', `desc` = '出自小说《安达与岛村》', `contributor` = '好好怪,', `c_id` = 2502, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 375;
+[2022-10-24 23:44:16] 正在更新词条 adachi to shimamura 译名为 安达与岛村
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达与岛村', `desc` = '', `contributor` = '好好怪,', `c_id` = 2502, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 376;
+[2022-10-24 23:44:16] 正在更新词条 adagaki aki 译名为 安达恒爱姬
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达恒爱姬', `desc` = '出自《政宗君的复仇》', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 378;
+[2022-10-24 23:44:17] 正在更新词条 add (elsword) 译名为 艾迪
+=>  sql: UPDATE `ct_tags` SET `t_name` = '艾迪', `desc` = '出自艾尔之光', `contributor` = '好好怪,', `c_id` = 2797, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 385;
+[2022-10-24 23:44:17] 正在更新词条 adelbert steiner 译名为 阿德尔伯特·斯坦纳
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿德尔伯特·斯坦纳', `desc` = '出自最终幻想9', `contributor` = '好好怪,', `c_id` = 2712, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 387;
+[2022-10-24 23:44:17] 正在更新词条 adeleine 译名为 阿朵莱尼
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿朵莱尼', `desc` = '出自星之卡比', `contributor` = '好好怪,', `c_id` = 2796, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 388;
+[2022-10-24 23:44:17] 正在更新词条 adepta sororitas 译名为 战斗修女
+=>  sql: UPDATE `ct_tags` SET `t_name` = '战斗修女', `desc` = '出自战锤', `contributor` = '好好怪,', `c_id` = 2797, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 390;
+[2022-10-24 23:44:17] 正在更新词条 adiane 译名为 流丽之阿蒂涅
+=>  sql: UPDATE `ct_tags` SET `t_name` = '流丽之阿蒂涅', `desc` = '出自天元突破', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 392;
+[2022-10-24 23:44:17] 正在更新词条 admiral graf spee (peaceful daily life) (azur lane) 译名为 斯佩伯爵海军上将(平稳的日常)(碧蓝航线)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '斯佩伯爵海军上将(平稳的日常)(碧蓝航线)', `desc` = '出自碧蓝航线', `contributor` = '好好怪,', `c_id` = 2703, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 413;
+[2022-10-24 23:44:18] 正在更新词条 admiral hipper (azur lane) 译名为 西贝尔海军上将(碧蓝航线)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '西贝尔海军上将(碧蓝航线)', `desc` = '出自碧蓝航线', `contributor` = '好好怪,', `c_id` = 2703, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 414;
+[2022-10-24 23:44:18] 正在更新词条 admiral paru 译名为 admiral paru
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'admiral paru', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 415;
+[2022-10-24 23:44:18] 正在更新词条 admire vega (umamusume) 译名为 爱慕织姬(赛马娘)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱慕织姬(赛马娘)', `desc` = '出自赛马娘', `contributor` = '好好怪,', `c_id` = 2716, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 418;
+[2022-10-24 23:44:18] 正在更新词条 aegir (housamo) 译名为 艾吉尔(东京放学后)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '艾吉尔(东京放学后)', `desc` = '出自东京放学后', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 432;
+[2022-10-24 23:44:18] 正在更新词条 agano (kancolle) 译名为 阿贺野号(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿贺野号(舰队收藏)', `desc` = '出自舰队收藏', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 494;
+[2022-10-24 23:44:19] 正在更新词条 agnes tachyon (umamusume) 译名为 爱丽速子(赛马娘)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱丽速子(赛马娘)', `desc` = '出自赛马娘', `contributor` = '好好怪,', `c_id` = 2716, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 521;
+[2022-10-24 23:44:19] 正在更新词条 agonasubi 译名为 agonasubi_m01
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'agonasubi_m01', `desc` = '画师', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 522;
+[2022-10-24 23:44:19] 正在更新词条 agrius metamorphosis 译名为 神罚的野猪
+=>  sql: UPDATE `ct_tags` SET `t_name` = '神罚的野猪', `desc` = '出自FGO', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 526;
+[2022-10-24 23:44:19] 正在更新词条 ahagon umiko 译名为 阿波根海子
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿波根海子', `desc` = '出自漫画《new game!》', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 529;
+[2022-10-24 23:44:19] 正在更新词条 ai-chan (honkai impact) 译名为 爱酱(崩坏3rd)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱酱(崩坏3rd)', `desc` = '出自崩坏三', `contributor` = '好好怪,', `c_id` = 2702, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 541;
+[2022-10-24 23:44:20] 正在更新词条 aikatsu on parade! 译名为 偶像活动 on Parade!
+=>  sql: UPDATE `ct_tags` SET `t_name` = '偶像活动 on Parade!', `desc` = '动漫', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 563;
+[2022-10-24 23:44:20] 正在更新词条 aikatsu stars! 译名为 偶像活动stars!
+=>  sql: UPDATE `ct_tags` SET `t_name` = '偶像活动stars!', `desc` = '动漫', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 564;
+[2022-10-24 23:44:20] 正在更新词条 air shakur (umamusume) 译名为 空中神宫（赛马娘）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '空中神宫（赛马娘）', `desc` = '出自赛马娘', `contributor` = '好好怪,', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 609;
+[2022-10-24 23:44:20] 正在更新词条 airani iofifteen 译名为 lofi
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'lofi', `desc` = 'vtuber', `contributor` = ',', `c_id` = 2504, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 611;
+[2022-10-24 23:44:20] 正在更新词条 aka ringo 译名为 红苹果
+=>  sql: UPDATE `ct_tags` SET `t_name` = '红苹果', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 665;
+[2022-10-24 23:44:21] 正在更新词条 aka tawashi 译名为 aka tawashi
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aka tawashi', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 666;
+[2022-10-24 23:44:21] 正在更新词条 aka ume 译名为 aka ume
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aka ume', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 667;
+[2022-10-24 23:44:21] 正在更新词条 akabane youko 译名为 赤羽叶子
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤羽叶子', `desc` = 'vtuber', `contributor` = ',', `c_id` = 2504, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 671;
+[2022-10-24 23:44:21] 正在更新词条 akagi (kancolle) 译名为 赤城（舰队收藏）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤城（舰队收藏）', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 680;
+[2022-10-24 23:44:21] 正在更新词条 akagi (paradise amaryllis) (azur lane) 译名为 赤城（乐园的彼岸花）（碧蓝航线）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤城（乐园的彼岸花）（碧蓝航线）', `desc` = '出自碧蓝航线', `contributor` = ',', `c_id` = 2703, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 681;
+[2022-10-24 23:44:22] 正在更新词条 akagi asahito 译名为 赤城朝日
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤城朝日', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 683;
+[2022-10-24 23:44:22] 正在更新词条 akagi kai ni (kancolle) 译名为 赤城 改二（舰队收藏）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤城 改二（舰队收藏）', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 684;
+[2022-10-24 23:44:22] 正在更新词条 akagi kurage 译名为 akagi kurage
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akagi kurage', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 685;
+[2022-10-24 23:44:22] 正在更新词条 akagi ritsuko 译名为 赤木律子
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤木律子', `desc` = '出自《新世纪福音战士》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 688;
+[2022-10-24 23:44:22] 正在更新词条 akagi shun 译名为 紅木春
+=>  sql: UPDATE `ct_tags` SET `t_name` = '紅木春', `desc` = '插画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 690;
+[2022-10-24 23:44:22] 正在更新词条 akagi: yami ni oritatta tensai 译名为 斗牌传说
+=>  sql: UPDATE `ct_tags` SET `t_name` = '斗牌传说', `desc` = '动漫', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 692;
+[2022-10-24 23:44:23] 正在更新词条 akahi242 译名为 akahi242
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akahi242', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 693;
+[2022-10-24 23:44:23] 正在更新词条 akai haato 译名为 赤井心
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤井心', `desc` = 'vtuber', `contributor` = ',', `c_id` = 2504, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 696;
+[2022-10-24 23:44:23] 正在更新词条 akai ringo (ookami-san) 译名为 赤井林檎（大神与七位伙伴）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤井林檎（大神与七位伙伴）', `desc` = '出自《大神与七位伙伴》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 698;
+[2022-10-24 23:44:23] 正在更新词条 akai sashimi 译名为 akai sashimi
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akai sashimi', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 700;
+[2022-10-24 23:44:23] 正在更新词条 akai shuuichi 译名为 赤井秀一
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤井秀一', `desc` = '出自《名侦探柯南》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 701;
+[2022-10-24 23:44:24] 正在更新词条 akairiot 译名为 akairiot
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akairiot', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 703;
+[2022-10-24 23:44:24] 正在更新词条 akakura 译名为 赤倉
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤倉', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 705;
+[2022-10-24 23:44:24] 正在更新词条 akane (blue archive) 译名为 茜（碧蓝档案）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '茜（碧蓝档案）', `desc` = '出自碧蓝档案', `contributor` = ',', `c_id` = 2706, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 717;
+[2022-10-24 23:44:24] 正在更新词条 akane (bunny) (blue archive) 译名为 茜（兔女郎）（碧蓝档案）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '茜（兔女郎）（碧蓝档案）', `desc` = '出自碧蓝档案', `contributor` = ',', `c_id` = 2706, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 718;
+[2022-10-24 23:44:24] 正在更新词条 akasaai 译名为 akasaai
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akasaai', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 731;
+[2022-10-24 23:44:25] 正在更新词条 akasaka mamoru 译名为 赤坂卫
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤坂卫', `desc` = '出自《寒蝉鸣泣之时》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 733;
+[2022-10-24 23:44:25] 正在更新词条 akashi kaoru 译名为 明石薰
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明石薰', `desc` = '出自《楚楚可怜超能少女组》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 739;
+[2022-10-24 23:44:25] 正在更新词条 akashi kuniyuki 译名为 明石国行
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明石国行', `desc` = '出自刀剑乱舞', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 740;
+[2022-10-24 23:44:25] 正在更新词条 akashi seijuurou 译名为 赤司征十郎
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤司征十郎', `desc` = '出自《黑子的篮球》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 741;
+[2022-10-24 23:44:25] 正在更新词条 akashi yuuna 译名为 明石裕奈
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明石裕奈', `desc` = '出自《魔法先生》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 742;
+[2022-10-24 23:44:26] 正在更新词条 akashiya moka 译名为 赤夜萌香
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤夜萌香', `desc` = '出自《十字架与吸血鬼》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 744;
+[2022-10-24 23:44:26] 正在更新词条 akata itsuki 译名为 亜方逸樹
+=>  sql: UPDATE `ct_tags` SET `t_name` = '亜方逸樹', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 747;
+[2022-10-24 23:44:26] 正在更新词条 akatsuki blitzkampf 译名为 葬晓电光战记
+=>  sql: UPDATE `ct_tags` SET `t_name` = '葬晓电光战记', `desc` = '出自葬晓电光战记', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 752;
+[2022-10-24 23:44:26] 正在更新词条 akatsuki kai ni (kancolle) 译名为 晓 改二(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '晓 改二(舰队收藏)', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 756;
+[2022-10-24 23:44:26] 正在更新词条 akatsuki no goei 译名为 晓之护卫
+=>  sql: UPDATE `ct_tags` SET `t_name` = '晓之护卫', `desc` = '出自晓之护卫', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 759;
+[2022-10-24 23:44:27] 正在更新词条 akatsuki no yona 译名为 晨曦公主
+=>  sql: UPDATE `ct_tags` SET `t_name` = '晨曦公主', `desc` = '出自晨曦公主', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 760;
+[2022-10-24 23:44:27] 正在更新词条 akatsuki uni 译名为 赤月优虹
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤月优虹', `desc` = 'vtuber', `contributor` = ',', `c_id` = 2504, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 761;
+[2022-10-24 23:44:27] 正在更新词条 akatsuki uniform 译名为 晓制服
+=>  sql: UPDATE `ct_tags` SET `t_name` = '晓制服', `desc` = '出自《火影忍者》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 762;
+[2022-10-24 23:44:27] 正在更新词条 akaza 译名为 猗窝座
+=>  sql: UPDATE `ct_tags` SET `t_name` = '猗窝座', `desc` = '出自《鬼灭之刃》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 763;
+[2022-10-24 23:44:27] 正在更新词条 akaza akane 译名为 赤座茜
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤座茜', `desc` = '出自《摇曳百合》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 764;
+[2022-10-24 23:44:28] 正在更新词条 akazawa izumi 译名为 赤泽泉美
+=>  sql: UPDATE `ct_tags` SET `t_name` = '赤泽泉美', `desc` = '出自动漫《another》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 767;
+[2022-10-24 23:44:28] 正在更新词条 akazawa red 译名为 akazawa red
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akazawa red', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 768;
+[2022-10-24 23:44:28] 正在更新词条 akazukin chacha 译名为 小红帽恰恰
+=>  sql: UPDATE `ct_tags` SET `t_name` = '小红帽恰恰', `desc` = '出自动漫《小红帽恰恰》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 769;
+[2022-10-24 23:44:28] 正在更新词条 akchu 译名为 akchu
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akchu', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 771;
+[2022-10-24 23:44:28] 正在更新词条 akebi komichi 译名为 明日小路
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明日小路', `desc` = '出自动漫《明日同学的水手服》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 772;
+[2022-10-24 23:44:29] 正在更新词条 akebi-chan no serafuku 译名为 明日同学的水手服
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明日同学的水手服', `desc` = '出自动漫《明日同学的水手服》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 773;
+[2022-10-24 23:44:29] 正在更新词条 akebono (kancolle) 译名为 曙（舰队收藏）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '曙（舰队收藏）', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 774;
+[2022-10-24 23:44:29] 正在更新词条 akebono kai ni (kancolle) 译名为 曙 改二（舰队收藏）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '曙 改二（舰队收藏）', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 775;
+[2022-10-24 23:44:29] 正在更新词条 akechi gorou 译名为 明智吾郎
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明智吾郎', `desc` = '出自女神异闻录5', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 776;
+[2022-10-24 23:44:29] 正在更新词条 akechi kokoro 译名为 明智小衣
+=>  sql: UPDATE `ct_tags` SET `t_name` = '明智小衣', `desc` = '出自动漫《侦探歌剧：少女福尔摩斯》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 777;
+[2022-10-24 23:44:30] 正在更新词条 akehi yuki 译名为 绯比雪
+=>  sql: UPDATE `ct_tags` SET `t_name` = '绯比雪', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 779;
+[2022-10-24 23:44:30] 正在更新词条 akemiho tabi nikki 译名为 akemiho tabi nikki
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akemiho tabi nikki', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 782;
+[2022-10-24 23:44:30] 正在更新词条 aki (akikaze asparagus) 译名为 aki (akikaze asparagus)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki (akikaze asparagus)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 789;
+[2022-10-24 23:44:30] 正在更新词条 aki (akisora hiyori) 译名为 aki (akisora hiyori)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki (akisora hiyori)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 790;
+[2022-10-24 23:44:30] 正在更新词条 aki (neyuki41028) 译名为 aki (neyuki41028)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki (neyuki41028)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 792;
+[2022-10-24 23:44:31] 正在更新词条 aki (sangetusei) 译名为 aki (sangetusei)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki (sangetusei)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 793;
+[2022-10-24 23:44:31] 正在更新词条 aki eda 译名为 aki eda
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki eda', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 794;
+[2022-10-24 23:44:31] 正在更新词条 aki rosenthal 译名为 亚绮·罗森塔尔
+=>  sql: UPDATE `ct_tags` SET `t_name` = '亚绮·罗森塔尔', `desc` = 'vtuber', `contributor` = ',', `c_id` = 2504, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 797;
+[2022-10-24 23:44:31] 正在更新词条 aki663 译名为 aki663
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki663', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 799;
+[2022-10-24 23:44:31] 正在更新词条 aki99 译名为 aki99
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'aki99', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 800;
+[2022-10-24 23:44:32] 正在更新词条 akiamare 译名为 akiamare
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akiamare', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 801;
+[2022-10-24 23:44:32] 正在更新词条 akiba hideki 译名为 akiba hideki
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akiba hideki', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 802;
+[2022-10-24 23:44:32] 正在更新词条 akiba monaka 译名为 akiba monaka
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akiba monaka', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 803;
+[2022-10-24 23:44:32] 正在更新词条 akieda 译名为 akieda
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akieda', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 805;
+[2022-10-24 23:44:32] 正在更新词条 akigumo (kancolle) 译名为 秋云(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '秋云(舰队收藏)', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 806;
+[2022-10-24 23:44:33] 正在更新词条 akigumo kai ni (kancolle) 译名为 秋云改二（舰队收藏）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '秋云改二（舰队收藏）', `desc` = '出自舰队收藏', `contributor` = ',', `c_id` = 2709, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 807;
+[2022-10-24 23:44:33] 正在更新词条 akiha (attract) 译名为 akiha (attract)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akiha (attract)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 808;
+[2022-10-24 23:44:33] 正在更新词条 akiha rumiho 译名为 菲利斯喵喵
+=>  sql: UPDATE `ct_tags` SET `t_name` = '菲利斯喵喵', `desc` = '出自命运石之门', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 809;
+[2022-10-24 23:44:33] 正在更新词条 akihazama 译名为 akihazama
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akihazama', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 811;
+[2022-10-24 23:44:33] 正在更新词条 akihime sumomo 译名为 秋姬素桃
+=>  sql: UPDATE `ct_tags` SET `t_name` = '秋姬素桃', `desc` = '出自《七色星露》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 812;
+[2022-10-24 23:44:34] 正在更新词条 akihiro altland 译名为 昭弘·阿尔特兰
+=>  sql: UPDATE `ct_tags` SET `t_name` = '昭弘·阿尔特兰', `desc` = '出自《机动战士高达：铁血的奥尔芬斯》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 813;
+[2022-10-24 23:44:34] 正在更新词条 akikawa yayoi (umamusume) 译名为 秋川弥生（赛马娘）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '秋川弥生（赛马娘）', `desc` = '出自赛马娘', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 815;
+[2022-10-24 23:44:34] 正在更新词条 akikazu mizuno 译名为 水野晓一
+=>  sql: UPDATE `ct_tags` SET `t_name` = '水野晓一', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 817;
+[2022-10-24 23:44:34] 正在更新词条 akimaki yuu 译名为 akimaki yuu
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akimaki yuu', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 818;
+[2022-10-24 23:44:34] 正在更新词条 akimoto komachi 译名为 永野爱
+=>  sql: UPDATE `ct_tags` SET `t_name` = '永野爱', `desc` = '出自《yes！光之美少女5》', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 820;
+[2022-10-24 23:44:35] 正在更新词条 akinaie 译名为 akinaie
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akinaie', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 822;
+[2022-10-24 23:44:35] 正在更新词条 akinashi yuu 译名为 akinashi yuu
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akinashi yuu', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 823;
+[2022-10-24 23:44:35] 正在更新词条 akinbo (hyouka fuyou) 译名为 akinbo (hyouka fuyou)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akinbo (hyouka fuyou)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 824;
+[2022-10-24 23:44:35] 正在更新词条 akine (kuroyuri) 译名为 akine (kuroyuri)
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akine (kuroyuri)', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 825;
+[2022-10-24 23:44:35] 正在更新词条 akino (princess connect!) 译名为 秋乃（公主连接！）
+=>  sql: UPDATE `ct_tags` SET `t_name` = '秋乃（公主连接！）', `desc` = '出自公主连结', `contributor` = ',', `c_id` = 3101, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 826;
+[2022-10-24 23:44:36] 正在更新词条 akino sora 译名为 akino sora
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akino sora', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 832;
+[2022-10-24 23:44:36] 正在更新词条 akino subaru 译名为 akino subaru
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'akino subaru', `desc` = '画师', `contributor` = ',', `c_id` = 2501, `remarks` = '', `update_time` = NOW(), `update_times` = 1 WHERE `id` = 833;
+[2022-10-24 23:44:36] 词条入库完成，共检索到词条数量: 121，更新词条数: 121，耗时: 23.793108701705933
+
+
