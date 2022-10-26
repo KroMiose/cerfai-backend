@@ -145,6 +145,18 @@ def back_to_record():
     if data != False:
         return {'code': 200, 'data': data, 'msg': '处理成功'}
     return {'code': 401, 'msg': '处理失败'}
+# 回溯词条
+@app.route('/admin/back_record_for', methods=['GET','POST'])
+def back_record_for():
+    try:
+        reqData = json.loads(request.data.decode('UTF-8'))
+    except json.decoder.JSONDecodeError:
+        reqData = request.form
+    data = do.back_for_all(reqData)
+    if data != False:
+        return {'code': 200, 'data': data, 'msg': '处理成功'}
+    return {'code': 401, 'msg': '处理失败'}
+
 
 
 

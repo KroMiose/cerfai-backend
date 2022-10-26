@@ -269,6 +269,26 @@ class dataOpt:
         except Exception as e:
             print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {e} 来自管理记录查询，携带数据: {data}")
             return False
+    def back_for_all(self,data):
+        try:
+            if self.check_access_key(data['token']):
+                if "time1" not in data:data['time1']=0
+                if "time2" not in data:data["time2"]=0
+                if "ip" not in data:data["ip"]=""
+                ridList = self.dataRecoder.filterRecordFinal(data["ip"],data["time1"],data["time2"])
+                success_cnt=0
+                fail_cnt=0
+                for rid in ridList:
+                    try:
+                        self.dataRecoder.backToRecord(rid['id'])
+                        success_cnt=success_cnt+1
+                    except:
+                        fail_cnt = fail_cnt+1
+                return {"success_cnt":success_cnt,"fail_cnt":fail_cnt}
+        except Exception as e:
+            print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ERROR: {e} 来自管理记录查询，携带数据: {data}")
+            return False
+
     """ ================================ 开放平台接口 ================================ """
     # 获取总分类列表
     def get_full_categories(self):

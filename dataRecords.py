@@ -41,19 +41,37 @@ class dataRecorder:
         return self.db.select_bind(sql, [ct_id,pageSize,(page-1)*pageSize])
     # 函数：查询记录。用于查询对于任意词条最近更新记录
     def filterRecord(self,ip:str="",time1:int=0,time2:int=0,page:int=1,pageSize:int=50) -> tuple:
-        additionFilter = ""
+        additionFilter = "1=1 "
         additionParam = []
         if time1 != 0:
-            additionFilter = additionFilter + "`record_time` >= %%s"
+            additionFilter = additionFilter + " and `record_time` >= %s"
             additionParam.append(time1)
         if time2 != 0:
-            additionFilter = additionFilter + "`record_time` <= %%s"
+            additionFilter = additionFilter + " and `record_time` <= %s"
             additionParam.append(time2)
         if ip != "":
-            additionFilter = additionFilter + "`ip` = %%s"
+            additionFilter = additionFilter + " and `ip` = %s"
             additionParam.append(ip)
         sql = "SELECT * from `ct_edit_record` %s ORDER BY `record_time` DESC LIMIT %%s OFFSET %%s;"%(additionFilter)
         return self.db.select_bind(sql, [*additionParam,pageSize,(page-1)*pageSize])
+    # 函数：查询最终记录。用于查询对于任意词条最近更新记录
+    #TODO:
+    def filterRecordFinal(self,ip:str="",time1:int=0,time2:int=0) -> tuple:
+        additionFilter = "1=1"
+        additionParam = []
+        if time1 != 0:
+            additionFilter = additionFilter + " and `record_time` >= %s"
+            additionParam.append(time1)
+        if time2 != 0:
+            additionFilter = additionFilter + " and `record_time` <= %s"
+            additionParam.append(time2)
+        if ip != "":
+            additionFilter = additionFilter + " and `ip` = %s"
+            additionParam.append(ip)
+        if len(additionParam) == 0:
+            return []
+        sql = "SELECT * from `ct_edit_record` cr WHERE %s and NOT EXISTS (SELECT 1 FROM `ct_edit_record` cr_b WHERE (cr_b.record_time > cr.record_time and not (%s))or (cr_b.record_time < cr.record_time and (%s)));"%(additionFilter,additionFilter,additionFilter)
+        return self.db.select_bind(sql, [*additionParam,*additionParam,*additionParam])
     def backToRecord(self,recId:int):
         recData = self.db.select_bind("SELECT * FROM `ct_edit_record` where `id`=%s",[recId])[0]
         ct_id=recData['ct_id']
