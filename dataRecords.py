@@ -52,7 +52,7 @@ class dataRecorder:
         if ip != "":
             additionFilter = additionFilter + " and `ip` = %s"
             additionParam.append(ip)
-        sql = "SELECT * from `ct_edit_record` %s ORDER BY `record_time` DESC LIMIT %%s OFFSET %%s;"%(additionFilter)
+        sql = "SELECT * from `ct_edit_record` WHERE %s ORDER BY `record_time` DESC LIMIT %%s OFFSET %%s;"%(additionFilter)
         return self.db.select_bind(sql, [*additionParam,pageSize,(page-1)*pageSize])
     # 函数：查询最终记录。用于查询对于任意词条最近更新记录
     #TODO:
