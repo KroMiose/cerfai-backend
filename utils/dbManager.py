@@ -3,7 +3,7 @@ import re
 def _dealParam(param:list)->list:
     ret = []
     for p in param:
-        if p is None:ret.append("")
+        if p == "" or p is None:ret.append(None)
         else:ret.append(p)
     return ret
 class DatabaseManager:
