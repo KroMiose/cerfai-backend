@@ -36,3 +36,8 @@ access_key = '9a58459a6ec807b112933c8c676e295e'
 
 # 每次返回的数据条数最大限制
 max_ret_data_limit = 100
+
+# SSL证书配置
+enable_ssl = False
+ssl_pem_path = './ssl/api.kromiose.top.pem'
+ssl_key_path = './ssl/api.kromiose.top.key'
