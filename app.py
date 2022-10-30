@@ -180,10 +180,10 @@ def open_get_tags_by_category():
 
 
 if __name__ == '__main__':
-    if not config.debug:
-        os.system('cls')
+    os.system('cls')
     app.config['SECRET_KEY'] = os.urandom(32)
-    app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port)
+    ssl_context = (config.ssl_pem_path, config.ssl_key_path) if config.enable_ssl else None
+    app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port, ssl_context=ssl_context)
 
     # http_server = WSGIServer(('0.0.0.0', config.server_port), application=app, handler_class=WebSocketHandler)
     # print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] 主服务器在 {config.server_host}:{config.server_port} 上运行中...")
