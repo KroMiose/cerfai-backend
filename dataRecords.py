@@ -37,8 +37,11 @@ class dataRecorder:
     
     # 函数：查询记录。用于查询一个词条的最近更新记录
     def getRecord(self,ct_id:int,page:int=1,pageSize:int=50) -> tuple:
+        sql_count = "SELECT count(*) as c from `ct_edit_record` where `ct_id`=%s;"
+        pageCnt = self.db.select_bind(sql_count, [ct_id])[0]['c']
         sql = "SELECT * from `ct_edit_record` where `ct_id`=%s ORDER BY `record_time` DESC LIMIT %s OFFSET %s;"
-        return self.db.select_bind(sql, [ct_id,pageSize,(page-1)*pageSize])
+        data = self.db.select_bind(sql, [ct_id,pageSize,(page-1)*pageSize])
+        return {"total":pageCnt,"data":data}
     # 函数：查询记录。用于查询对于任意词条最近更新记录
     def filterRecord(self,ip:str="",time1:int=0,time2:int=0,page:int=1,pageSize:int=50) -> tuple:
         additionFilter = "1=1 "
@@ -53,9 +56,11 @@ class dataRecorder:
             additionFilter = additionFilter + " and `ip` = %s"
             additionParam.append(ip)
         sql = "SELECT * from `ct_edit_record` WHERE %s ORDER BY `record_time` DESC LIMIT %%s OFFSET %%s;"%(additionFilter)
-        return self.db.select_bind(sql, [*additionParam,pageSize,(page-1)*pageSize])
+        sql_count = "SELECT count(*) as c from `ct_edit_record` WHERE %s"%(additionFilter)
+        pageCnt = self.db.select_bind(sql_count, [*additionParam])[0]['c']
+        data=self.db.select_bind(sql, [*additionParam,pageSize,(page-1)*pageSize])
+        return {"total":pageCnt,"data":data}
     # 函数：查询最终记录。用于查询对于任意词条最近更新记录
-    #TODO:
     def filterRecordFinal(self,ip:str="",time1:int=0,time2:int=0) -> tuple:
         additionFilter = "1=1"
         additionParam = []

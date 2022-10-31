@@ -11,6 +11,7 @@ database_settings = {
     'mysql_port': '3306',
     'mysql_user': 'root',
     'mysql_passwd': '',
+    #'mysql_passwd': 'root',#本地开发用
     'mysql_db': 'novelai',
     'enable_debug': False,
 }
