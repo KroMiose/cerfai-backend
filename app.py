@@ -110,7 +110,7 @@ def filter_tags():
     data, cnt = do.filter_tags(reqData)
     if data != False:
         return {'code': 200, 'data': data, 'total': cnt}
-    return {'code': 401, 'msg': '参数错误'}
+    return {'code': 500, 'msg': '参数错误'}
 
 # 编辑词条信息
 @app.route('/admin/edit_tag', methods=['POST'])
@@ -122,7 +122,7 @@ def edit_tag():
     data = do.edit_tag(reqData)
     if data != False:
         return {'code': 200, 'data': data, 'msg': '更新成功'}
-    return {'code': 401, 'msg': '参数错误'}
+    return {'code': 500, 'msg': '参数错误'}
 # 获取词条历史记录
 @app.route('/admin/get_record', methods=['GET','POST'])
 def get_record():
@@ -133,7 +133,7 @@ def get_record():
     data = do.get_record(reqData)
     if data != False:
         return {'code': 200, 'data': data, 'msg': '查询成功'}
-    return {'code': 401, 'msg': '未获取到数据'}
+    return {'code': 500, 'msg': '未获取到数据'}
 # 回溯词条
 @app.route('/admin/back_to_record', methods=['GET','POST'])
 def back_to_record():
@@ -144,7 +144,7 @@ def back_to_record():
     data = do.back_to_record(reqData)
     if data != False:
         return {'code': 200, 'data': data, 'msg': '处理成功'}
-    return {'code': 401, 'msg': '处理失败'}
+    return {'code': 500, 'msg': '处理失败'}
 # 回溯词条
 @app.route('/admin/back_record_for', methods=['GET','POST'])
 def back_record_for():
@@ -155,7 +155,7 @@ def back_record_for():
     data = do.back_for_all(reqData)
     if data != False:
         return {'code': 200, 'data': data, 'msg': '处理成功'}
-    return {'code': 401, 'msg': '处理失败'}
+    return {'code': 500, 'msg': '处理失败'}
 
 
 
@@ -184,6 +184,7 @@ if __name__ == '__main__':
     app.config['SECRET_KEY'] = os.urandom(32)
     ssl_context = (config.ssl_pem_path, config.ssl_key_path) if config.enable_ssl else None
     app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port, ssl_context=ssl_context)
+    # app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port) #本地开发用
 
     # http_server = WSGIServer(('0.0.0.0', config.server_port), application=app, handler_class=WebSocketHandler)
     # print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] 主服务器在 {config.server_host}:{config.server_port} 上运行中...")
