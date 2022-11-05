@@ -124,7 +124,7 @@ class dataOpt:
             keyword = data['keyword'].replace('\'', '\\\'')
             print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] 接收到检索请求: {keyword}")
             if keyword:
-                res = self.db.select(f'''SELECT * FROM ct_tags WHERE `name` LIKE '%{keyword}%' OR `t_name` LIKE '%{keyword}%' LIMIT {config.max_ret_data_limit};''')
+                res = self.db.select(f'''SELECT * FROM ct_tags WHERE `name` LIKE '%{keyword}%' OR `t_name` LIKE '%{keyword}%' ORDER BY LENGTH(`name`) ASC, LENGTH(`t_name`) ASC LIMIT {config.max_ret_data_limit};''')
                 return res
             return []
         except Exception as e:

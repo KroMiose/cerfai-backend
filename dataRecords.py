@@ -9,19 +9,19 @@ class dataRecorder:
     def __init__(self,db:DatabaseManager):
         self.db = db
         self.keyList={
-        "ct_id":"id",
-        "name":"name",
-        "t_name":"t_name",
-        "is_nsfw":"is_nsfw",
-        "desc":"desc",
-        "remarks":"remarks",
-        "contributor":"contributor",
-        "c_id":"c_id",
-        "update_times":"update_times",
-        "update_time":"update_time",
-        "is_locked":"is_locked",
-        "effect_level":"effect_level",
-        "source":"source"
+            "ct_id":"id",
+            "name":"name",
+            "t_name":"t_name",
+            "is_nsfw":"is_nsfw",
+            "desc":"desc",
+            "remarks":"remarks",
+            "contributor":"contributor",
+            "c_id":"c_id",
+            "update_times":"update_times",
+            "update_time":"update_time",
+            "is_locked":"is_locked",
+            "effect_level":"effect_level",
+            "source":"source"
         }
         self.keyStr = ",".join(["`"+x+"`" for x in self.keyList.keys()])
         self.paramStr = ",".join(["%s"]*len(self.keyList.keys()))
