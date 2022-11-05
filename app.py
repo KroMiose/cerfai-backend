@@ -6,9 +6,6 @@ import time
 import config
 from dataOpts import dataOpt
 
-# from geventwebsocket.handler import WebSocketHandler
-# from geventwebsocket.server import WSGIServer
-
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
@@ -18,13 +15,12 @@ ip_dict = {}
 # 测试服务器连通性接口
 @app.route('/ping', methods=['GET', 'POST'])
 def ping():
-    time.sleep(1)
     try:
         reqData = json.loads(request.data.decode('UTF-8'))
     except json.decoder.JSONDecodeError:
         reqData = request.form
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ping from {request.remote_addr} with data: {reqData}")
-    return {'code': 200, 'msg': 'welcome to Miose_Draw_Guess', 'data': reqData}
+    return {'code': 200, 'msg': 'CERF-AI贡献站点运行正常', 'data': reqData}
 
 # 获取类别列表
 @app.route('/get_categories', methods=['GET', 'POST'])
@@ -184,8 +180,3 @@ if __name__ == '__main__':
     app.config['SECRET_KEY'] = os.urandom(32)
     ssl_context = (config.ssl_pem_path, config.ssl_key_path) if config.enable_ssl else None
     app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port, ssl_context=ssl_context)
-    # app.run(debug=config.debug, threaded=True, host='0.0.0.0', port=config.server_port) #本地开发用
-
-    # http_server = WSGIServer(('0.0.0.0', config.server_port), application=app, handler_class=WebSocketHandler)
-    # print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] 主服务器在 {config.server_host}:{config.server_port} 上运行中...")
-    # http_server.serve_forever()

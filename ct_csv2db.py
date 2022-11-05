@@ -8,7 +8,7 @@ import math
 db = DatabaseManager(config=config.database_settings)
 
 if __name__ == '__main__':
-    df = pandas.read_csv('./分级目录10.18.csv', encoding='gb2312')
+    df = pandas.read_csv('./data/分级目录1101.csv', encoding='gb2312')
     # print(df)
     for i, row in df.iterrows():
 
