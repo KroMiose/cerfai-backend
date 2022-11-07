@@ -19,8 +19,9 @@ def ping():
         reqData = json.loads(request.data.decode('UTF-8'))
     except json.decoder.JSONDecodeError:
         reqData = request.form
-    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ping from {request.remote_addr} with data: {reqData}")
-    return {'code': 200, 'msg': 'CERF-AI贡献站点运行正常', 'data': reqData}
+    user_ip = request.remote_addr if request.remote_addr != '127.0.0.1' else request.headers.get('X-Real-IP')
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] ping from {user_ip} with data: {reqData}")
+    return {'code': 200, 'msg': 'CERF-AI贡献站点运行正常', 'data': reqData, 'from_ip': user_ip}
 
 # 获取类别列表
 @app.route('/get_categories', methods=['GET', 'POST'])
