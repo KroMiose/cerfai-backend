@@ -11,9 +11,10 @@ file_timestr = time.strftime('%Y-%m-%d %H:%M:%S').replace(':', '_')
 
 
 csvlist = [ # 待导入的csv文件 按顺序覆盖
-    'A汉化词条31141.csv',
-    'B未完成汉化11.5.csv',
+    # 'A汉化词条31141.csv',
+    # 'B未完成汉化11.5.csv',
     'C已完成汉化11.5.csv',
+    '新增汉化D .csv',
 ]
 overwriteTname = True   # 是否强制覆盖译名
 
@@ -25,7 +26,7 @@ overwriteTname = True   # 是否强制覆盖译名
 
 
 # 写日志
-def write_log(text, sqldata):
+def write_log(text, sqldata=None):
     with open(f"./outputs/入库日志_{file_timestr}_data.txt", "a", encoding="utf-8") as f: # 保存请求结果
         if config.debug:
             f.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {text}\n=> sql: {sqldata or 'None'}\n")
