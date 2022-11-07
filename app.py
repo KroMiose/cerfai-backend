@@ -41,13 +41,14 @@ def update_taginfo():
         reqData = json.loads(request.data.decode('UTF-8'))
     except json.decoder.JSONDecodeError:
         reqData = request.form
-    if request.remote_addr in ip_dict:
+    user_ip = request.remote_addr if request.remote_addr != '127.0.0.1' else request.headers.get('X-Real-IP')
+    if user_ip in ip_dict:
         ctime = time.time()
-        if ctime - ip_dict[request.remote_addr] < config.ct_submit_delay:
-            return {'code': 401, 'msg': f"提交过于频繁，请等待 {int(config.ct_submit_delay - (ctime - ip_dict[request.remote_addr]))} 秒后重试"}
+        if ctime - ip_dict[user_ip] < config.ct_submit_delay:
+            return {'code': 401, 'msg': f"提交过于频繁，请等待 {int(config.ct_submit_delay - (ctime - ip_dict[user_ip]))} 秒后重试"}
 
-    if do.update_taginfo(reqData,request.remote_addr):
-        ip_dict[request.remote_addr] = time.time()
+    if do.update_taginfo(reqData,user_ip):
+        ip_dict[user_ip] = time.time()
         return {'code': 200, 'msg': '更新成功，感谢您的贡献！'}
     return {'code': 401, 'msg': '上传失败，请检查输入内容是否合法'}
 
